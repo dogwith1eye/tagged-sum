@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.4.4",
+    "daggy": "^1.4.0",
+    "tailwindcss": "^1.1.4",
     "vue": "^2.6.10"
   },
   "devDependencies": {
