@@ -23,7 +23,7 @@ const SignalMixin = {
   components: {
     SignalMatch
   },
-  data: function() {
+  data () {
     return {
       signal: Signal.None,
       Signal: Signal

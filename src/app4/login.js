@@ -6,9 +6,9 @@ const LoginMixin = {
     RemoteDataMatch,
     LoginFailureMatch
   },
-  data: function() {
+  data () {
     return {
-      login: RemoteData.None,
+      login: RemoteData.NotAsked,
       RemoteData: RemoteData,
       LoginFailure: LoginFailure
     };

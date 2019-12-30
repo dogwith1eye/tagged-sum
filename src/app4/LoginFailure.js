@@ -4,7 +4,8 @@ const LoginFailure = taggedSum('LoginFailure', {
   AccountNoMatch: [],
   AcccountLocked: [],
   PasswordNoMatch: [],
-  PasswordExpired: []
+  PasswordExpired: [],
+  Other: ['e']
 })
 
 const LoginFailureMatch = {
@@ -14,7 +15,8 @@ const LoginFailureMatch = {
       AccountNoMatch: () => this.$scopedSlots.accountNoMatch(),
       AcccountLocked: () => this.$scopedSlots.acccountLocked(),
       PasswordNoMatch: () => this.$scopedSlots.passwordNoMatch(),
-      PasswordExpired: () => this.$scopedSlots.passwordExpired()
+      PasswordExpired: () => this.$scopedSlots.passwordExpired(),
+      Other: (e) => this.$scopedSlots.other(e)
     })
   }
 }
