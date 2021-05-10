@@ -13,7 +13,7 @@
     "@fortawesome/vue-fontawesome": "^0.1.9",
     "core-js": "^3.4.4",
     "daggy": "^1.4.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "tailwindcss": "^1.1.4",
     "vue": "^2.6.10"
   },
